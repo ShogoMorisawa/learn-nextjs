@@ -24,6 +24,14 @@ export default async function Navigation() {
           </Link>
         </li>
         <li>
+          <Link
+            href="/privacy-policy"
+            className="hover:text-accent-400 transition-colors"
+          >
+            Privacy Policy
+          </Link>
+        </li>
+        <li>
           {session?.user?.image ? (
             <Link
               href="/account"
